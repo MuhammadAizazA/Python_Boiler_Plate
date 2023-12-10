@@ -60,8 +60,6 @@ You can specify a custom configuration file by setting the 'LOG_CFG' environment
 
 The logging levels used in this project are:
 
-
-
 * **DEBUG**: Detailed information, typically of interest only when diagnosing problems.
 * **INFO**: Confirmation that things are working as expected.
 * **ERROR**: Indicates a more serious problem or error in the application.

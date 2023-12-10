@@ -40,13 +40,13 @@ def setup_logging(default_path='logs/logging.yaml', default_level=logging.DEBUG,
         credentials=('myapp321123@gmail.com', 'evgq dnin chcy vehl'),
         secure=()
         )
-        mail_handler.setLevel(logging.ERROR)
+        mail_handler.setLevel(logging.CRITICAL)
         logging.getLogger('').addHandler(mail_handler)
+        logging.info('Logging loaded from yaml file is working')
     else:
         logging.basicConfig(level=default_level)
         
 def test_logging_working():
-    setup_logging()
     logging.debug('This is Debug Message From test_logging_working Function!')
     logging.info('This is Info Message From test_logging_working Function')
     logging.warning('This is Warning Message From test_logging_working Function')

@@ -7,6 +7,4 @@ if __name__=="__main__":
     logging.info('This is Info Message From Testing Module!')
     logging.warning('This is Warning Message From Testing Module!')
     logging.error('This is Error Message From Testing Module!')
-    logging.critical('This is Critical Message From Testing Module!')
-    
-
+    logging.critical('This is Error Message From Testing Module!')
